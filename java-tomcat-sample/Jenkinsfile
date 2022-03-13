@@ -12,13 +12,6 @@ pipeline {
                 }
             }
         }
-        stage('Deploy in Staging Environment'){
-            steps{
-                build job: 'Package_Application_Staging_env'
-
-            }
-            
-        }
-        
+                
     }
 }
